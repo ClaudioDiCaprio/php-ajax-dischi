@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: #1e2d3b;
+}
+
+
+/* ************logo************* */
+.logo {
+    height: 80px;
+    padding: 10px 20px;
+    background-color: #2e3a46;
+}
+
+.logo img {
+    height: 100%;
+    width: 3%;
+}
+
+/* ************Cards************* */
+.container {
+    width: 80%;
+    margin: auto;
+}

@@ -10,7 +10,20 @@
     <title>PHP-AJAX-DISCHI</title>
 </head>
 <body>
-
+    <div id="app">
+        <div class="logo">
+            <img src="img/spotify.png" alt="logo_spotify">
+        </div>
+        <div class="container">
+            <div class="card_container">
+                <div class="card_hit" v-for="card in database">
+                    <img :src="card.poster" :alt="card.title">
+                    <h3>{{card.title}}</h3>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
